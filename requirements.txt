@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+numpy
+pillow
+tensorflow
+requests
+asyncio
+python-multipart
+ultralytics
+opencv-python-headless
+pydantic
+starlette
