@@ -185,3 +185,6 @@ async def predict_disease_api(file: UploadFile = File(...)):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+if __name__ == "__main__":
+    PORT = int(os.environ.get("PORT", 8000))  # Use Render's port, default 8000 locally
+    uvicorn.run("main:app", host="0.0.0.0", port=PORT, reload=True)
