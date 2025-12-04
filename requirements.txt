@@ -1,12 +1,7 @@
 fastapi
 uvicorn
-numpy
-pillow
 tensorflow
+pillow
 requests
-asyncio
-python-multipart
-ultralytics
-opencv-python-headless
-pydantic
-starlette
+numpy
+
